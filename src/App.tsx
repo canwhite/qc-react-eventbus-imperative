@@ -42,8 +42,7 @@ const Box1: FC<BoxType> = function ({bus$}) {
   );
 };
 
-
-/* 接收兄弟组件的消息 */
+/* 接收兄弟组件的消息，test */
 const Box2: FC<BoxType> = function ({bus$}) {
   const inputRef = useRef<any>();
   /* 兄弟节点接收到信息该干嘛干嘛 */
